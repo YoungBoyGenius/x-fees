@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fee-section-a {
+    margin: 30px;
+}
+
+.fee-offer {
+    display: flex;
+}
+
+.fee-offer h4 {
+    padding: 4px;
+    border: 1px solid black;
+}
+
+.fee-inner-div {
+    display: flex;
+    margin-left: 400px;
+}
+
+@media (max-width: 390px) {
+    .fee-inner-div {
+        display: flex;
+        margin-left: 400px;
+    }
+}
+
+.fee-inner-div h4 {
+    padding: 4px;
+    border: 1px solid black;
+}
+
+table {
+    margin-left: 10px;
+}
+
+table tr th {
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table, tr, td {
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table tr td p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fee-table-2 {
+    margin: 20px 0px 20px 0px;
+}
+
+.fee-terms {
+    margin: 10px 0px 10px 10px;
+    padding: 10px;
+}
+
+.fee-terms, ul, li {
+    margin: 8px 0px 3px 5px;
+    list-style-type: circle;
+}
+
+.fee-withdrawal {
+    margin: 10px 10px 20px 10px;
+}
